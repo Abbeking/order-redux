@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "name": "React",
+        "date": "21 mars",
+        "location": "Sweden",
+        "timefrom": "19.00",
+        "timeto": "21.00",
+        "cost": "150 sek",
+        "ticketsdate": "21 MAR"
+    },
+
+    {
+        "id": 2,
+        "name": "Javascript",
+        "date": "29 mars",
+        "location": "Sweden",
+        "timefrom": "22.00",
+        "timeto": "00.00",
+        "cost": "130 sek",
+        "ticketsdate": "29 MAR"
+    },
+
+    {
+        "id": 3,
+        "name": "Html",
+        "date": "10 april",
+        "location": "Sweden",
+        "timefrom": "15.00",
+        "timeto": "16.00",
+        "cost": "120 sek",
+        "ticketsdate": "10 APR"
+    },
+
+    {
+        "id": 4,
+        "name": "CSS",
+        "date": "17 april",
+        "location": "Sweden",
+        "timefrom": "22.00",
+        "timeto": "23.00",
+        "cost": "110 sek",
+        "ticketsdate": "17 APR"
+    }
+]

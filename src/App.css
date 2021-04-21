@@ -1,0 +1,349 @@
+/************ Importing fonts from googlefont ************/
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+/*********** RESET ***********/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/************ BODY & WRAPPER ************/
+body {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #E5E5E5;
+}
+
+
+/************ SECTION FOR THE CARD HOLDER ************/
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(35, 31, 66, 1);
+  width: 420px;
+  height: 698px;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  padding-top: 2rem;
+}
+
+/************ First page | Events.js | starts with header title ************/
+h1 {
+  margin-bottom: 7rem;
+  font-family: 'Sansita', sans-serif;
+  font-size: 32px;
+  color: #F56B9A;
+  font-style: italic;
+}
+
+/************ First page | Events.js | settings display flex on the parent of all childs.  ************/
+.bindevents {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  min-width: 270px;
+}
+
+/************ First page | Events.js | display flex so the date square with border will appear next to the information. ************/
+.insidedate {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #FFFFFF;
+  width: 66px;
+  height: 74px;
+  border-radius: 3px;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/************ First page | Events.js | this is just to make the width of the text inside the border square box so half the text will appear under  ************/
+.datecolumn {
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+/************ First page | Events.js | setting width for the information ************/
+.bindNameCost {
+  width: 250px;
+  height: 73px;
+  margin-left: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+/************ First page | Events.js | Some styling for the artist names ************/
+.firstpagenametitles {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ffffff;
+  text-shadow: 1px 1px 0px #F56B9A;
+}
+
+
+/************ First page | Events.js | Styling for the locations ************/
+.firstpagelocation {
+  cursor: pointer;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+
+/************ First page | Events.js | setting width for the information ************/
+.bindTimeCost {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/************ First page | Events.js | just a styling for the time example  19:00 to 21:00 ************/
+.time {
+  margin-top: 0.1rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #D0D0D0;
+}
+
+/************ First page | Events.js | some styling including color for the price ************/
+.rightcost {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #37AEAB;
+}
+
+/********************************** **********************************/
+/********************************** **********************************/
+/********************************** **********************************/
+
+/************ Second page | Buy.js | A wrapper that holds everything inside. ************/
+.buy-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  height: 610px;
+  width: 400px;
+}
+
+/************ Second page | Buy.js | Some styling for the top title in Buy.js ************/
+.buytitle {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 19px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/************ HEADER TITLE FOR Buy.js & Tickets.js ************/
+h3 {
+  color: #ffffff;
+}
+
+
+/************ Second page | Buy.js | A wrapper that wraps the assets in the middle page ************/
+.buyassetswrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
+}
+
+
+/************ Second page | Buy.js | Some styling incoming for each class. ************/
+.buynametitle {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: rgba(245, 107, 154, 1);
+}
+
+
+.greendate {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 23px;
+  color: #37AEAB;
+}
+
+
+.buylocation {
+  font-style: italic;
+  font-size: 19px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.costbuy {
+  padding-top: 8rem;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  text-shadow: 1px 1px 0px #F56B9A;
+}
+
+
+
+/************ Second page | Buy.js | A wrapper for the button to make it flex and then center it ************/
+.onlyButton {
+  display: flex;
+  justify-content: center;
+}
+
+
+/************ Second page | Buy.js | Button styling also added hover to it. ************/
+button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: rgba(55, 174, 171, 1);
+  padding: 1.3rem 7.1rem;
+  cursor: pointer;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  width: 86%;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: rgb(81, 160, 156);
+  transition: 0.3s ease-in-out;
+}
+
+
+
+
+/********************************** **********************************/
+/********************************** **********************************/
+/********************************** **********************************/
+
+/************ Last page | Events.js | Ticket top header styling ************/
+.ticket-header {
+  color: #F56B9A;
+  font-family: 'Sansita', sans-serif;
+  font-size: 35px;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 3.6rem;
+  line-height: 41px;
+}
+
+
+/************ Last page | Events.js | Wrapper that holds everything in the last page ************/
+.ticket-wrapper {
+  background-color: #ffffff;
+  height: 270px;
+  width: 330px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+/************ Last page | Events.js | Wrapper to just add margin-top ************/
+.inside-ticket-wrapper {
+  margin-top: 1rem;
+}
+
+
+/************ Last page | Events.js | Just a span to add text in the boxes for instance What, Where etc at the top ************/
+span {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 13px;
+  margin-left: 1rem;
+}
+
+/************ Last page | Events.js | Styling for ticket-name ************/
+.ticket-name {
+  padding: 1rem;
+  color: rgba(245, 107, 154, 1);
+}
+
+
+/************ Last page | Events.js | To add the lines in the last page ************/
+.dots {
+  border: 1px dashed rgba(0, 0, 0, 0.4);
+}
+
+
+/************ Last page | Events.js | Second wrapper that holds location and the lines ************/
+.inside-second-wrapper {
+  padding-top: 0.3rem;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+
+/************ Last page | Events.js | Styling for ticket location ************/
+.ticket-location {
+  padding: 1rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 1.4rem;
+  font-size: 18px;
+}
+
+/************ Last page | Events.js | Wrapper that wraps the bottom three boxes ( date and the time )  ************/
+.third-ticket-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+
+/************ Last page | Events.js | Wrapper that holds the date  ************/
+.date-wrapper {
+  padding-top: 0.8rem;
+  border-right: 1px dashed rgba(0, 0, 0, 0.4);
+}
+
+
+/************ Last page | Events.js | Styling for date and time  ************/
+.datetimeinfo {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+
+/************ Last page | Events.js | A wrapper for the " timefrom " json  ************/
+.from-time-wrapper {
+  padding-top: 0.8rem;
+  border-right: 1px dashed rgba(0, 0, 0, 0.4);
+}
+
+
+/************ Last page | Events.js | A wrapper for the " timeto " json   ************/
+.to-time-wrapper {
+  padding-top: 0.8rem;
+}
